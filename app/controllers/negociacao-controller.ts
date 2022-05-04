@@ -14,7 +14,6 @@ export class NegociaoController{
         this.inputQuantidade = document.querySelector('#quantidade');
         this.inputValor = document.querySelector('#valor');
         this.negociacoesView.update(this.negociacoes);
-
     
     }
 
