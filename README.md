@@ -9,4 +9,4 @@ Parte 4: Adicionei então o arquivo "negociacoes.ts" para fazer o mesmo que foi 
 
 Parte 5: Aqui depois que eu consegui receber os dados do meu usuário, eu criei um template em HTML e fiz a interpolação dos dados da minha lista de negociações para ser exibido dinâmicamente no meu HTML, utilizando a propriedade "innerHTML" para manipular meus arquivos do DOM, veja como ficou :
 
-Negociações - Pessoal — Microsoft_ Edge 2022-05-04 10-20-07
+![Negociacoes](https://user-images.githubusercontent.com/103056538/166693332-0dd1c8a2-a31a-4ae1-be67-ca10f4cec1f7.gif)
