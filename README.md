@@ -10,3 +10,6 @@
 * Aqui depois que eu consegui receber os dados do meu usuário, eu criei um template em HTML e fiz a interpolação dos dados da minha lista de negociações para ser exibido dinâmicamente no meu HTML, utilizando a propriedade "innerHTML" para manipular meus arquivos do DOM, veja como ficou :
 
 ![Negociacoes](https://user-images.githubusercontent.com/103056538/166693332-0dd1c8a2-a31a-4ae1-be67-ca10f4cec1f7.gif)
+
+* Usei a herança em TypeScript para simplificar o código colocando no arquivo "View.ts", minhas funções que estavam sendo utilizadas pelas 2 "views", exportei o arquivo "View.ts" como uma classe abstrata afim de ser usada pelas outras views mas não ser de responsabilidade dele definir as variáveis do método template dentro de cada view.
+Dessa forma, eu deixei de ficar escrevendo os mesmos códigos para view que fosse criada e impedi que caso eu esquece de escrever meu template para a view, o erro não fosse percebido só quando o arquivo fosse ser executado, mas já aparecer meu erro de compilação enquanto estou desenvolvendo.
